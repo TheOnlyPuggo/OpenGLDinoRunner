@@ -24,6 +24,8 @@ find_package(OpenGL REQUIRED)
 add_executable(DinoRunner
         src/main.cpp
         src/glad.c
+        src/util/shader.cpp
+        src/util/texture.cpp
 )
 
 target_include_directories(DinoRunner PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
