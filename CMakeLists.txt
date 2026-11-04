@@ -26,6 +26,14 @@ add_executable(DinoRunner
         src/glad.c
         src/util/shader.cpp
         src/util/texture.cpp
+        src/util/resource_manager.cpp
+        src/stb_image.cpp
+        src/util/sprite_renderer.cpp
+        src/game.cpp
+        src/dino_runner/game_object.cpp
+        src/dino_runner/dino.cpp
+        src/dino_runner/obstacle.cpp
+        src/dino_runner/obstacle_spawner.cpp
 )
 
 target_include_directories(DinoRunner PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
